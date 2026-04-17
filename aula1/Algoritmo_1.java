@@ -1,8 +1,8 @@
 package aula1;
 
 public class Algoritmo_1 {
-    
-    // Realizar um algoritmo de instruções detalhadas de como realizar um café coado, utilizando System.out.println() para cada etapa do processo.
+
+// Realizar um algoritmo de instruções detalhadas de como realizar um café coado, utilizando System.out.println() para cada etapa do processo.
 
     public static void main(String[] args) {
 
