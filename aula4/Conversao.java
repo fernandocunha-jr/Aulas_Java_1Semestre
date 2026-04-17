@@ -26,18 +26,21 @@ public class Conversao {
                 System.out.println("Valor em metros: " + valor);
                 System.out.println("Valor em quilômetros: " + valor / 1000);
                 System.out.println("Valor em centímetros: " + valor * 100);
+                break;
             }
 
             case 2 -> {
                 System.out.println("Valor em metros: " + valor * 1000);
                 System.out.println("Valor em quilômetros: " + valor);
                 System.out.println("Valor em centímetros: " + valor * 100000);
+                break;
             }
 
             case 3 -> {
                 System.out.println("Valor em metros: " + valor / 100);
                 System.out.println("Valor em quilômetros: " + valor / 100000);
                 System.out.println("Valor em centímetros: " + valor);
+                break;
             }
 
             default -> System.out.println("Opção inválida.");

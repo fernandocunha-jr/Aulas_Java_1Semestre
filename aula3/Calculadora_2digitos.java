@@ -39,7 +39,7 @@ public class Calculadora_2digitos {
         } else if (operacao == '/') {
             if (num2 != 0) {
                 resultado = num1 / num2;
-
+                
             } else {
                 System.out.println("Erro: Divisão por zero não é permitida.");
                 operacaoValida = false;
