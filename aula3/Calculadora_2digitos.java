@@ -3,7 +3,8 @@ package aula3;
 import java.util.Scanner;
 
 public class Calculadora_2digitos {
-    // Faça um algoritmo para calcular a soma, subtração, multiplicação e divisão de 2 números
+    // Faça um algoritmo para calcular a soma, subtração, multiplicação e divisão de 2 números.
+    // Utilize estrutura de decisão para resolver o problema.
 
     public static void main(String[] args) {
 

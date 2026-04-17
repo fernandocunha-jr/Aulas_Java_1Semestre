@@ -3,7 +3,8 @@ package aula3;
 import java.util.Scanner;
 
 public class Num_Oque {
-    // Faça um algoritmo para determinar se um número é positivo, negativo ou zero
+    // Faça um algoritmo para determinar se um número é positivo, negativo ou zero.
+    // Utilize estrutura de decisão para resolver o problema.
 
     public static void main(String[] args) {
 
@@ -21,7 +22,7 @@ public class Num_Oque {
 
         } else if (num < 0) {
             System.out.println("O número é negativo.");
-            
+
         } else {
             System.out.println("O número é zero.");
         }

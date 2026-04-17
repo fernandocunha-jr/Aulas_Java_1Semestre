@@ -3,7 +3,7 @@ package aula2;
 import java.util.Scanner;
 
 public class Area_Triangulo {
-    // Faça um algoritmo para calcular a área do triângulo
+    // Faça um algoritmo para calcular a área do triângulo.
 
     public static void main(String[] args) {
         

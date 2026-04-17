@@ -7,6 +7,7 @@ public class Triangulo_Oque {
     // Equilátero: todos os lados são iguais
     // Isósceles: dois lados são iguais e um é diferente
     // Escaleno: todos os lados são diferentes
+    // Utilize estrutura de decisão para resolver o problema.
 
 
     public static void main(String[] args) {

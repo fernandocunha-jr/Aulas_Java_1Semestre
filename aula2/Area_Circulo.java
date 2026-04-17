@@ -3,7 +3,7 @@ package aula2;
 import java.util.Scanner;
 
 public class Area_Circulo {
-    // Faça um algoritmo para calcular a área do círculo
+    // Faça um algoritmo para calcular a área do círculo.
 
     public static void main(String[] args) {
         

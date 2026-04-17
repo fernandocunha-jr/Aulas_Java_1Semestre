@@ -8,6 +8,7 @@ public class Fase_Da_Vida {
     // 11 a 18 anos: Adolescente
     // 19 a 59 anos: Adulto
     // 60 anos ou mais: Idoso
+    // Utilize estrutura de decisão para resolver o problema.
 
     public static void main(String[] args) {
 
