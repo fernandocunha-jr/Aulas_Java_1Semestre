@@ -43,7 +43,9 @@ public class Conversao {
                 break;
             }
 
-            default -> System.out.println("Opção inválida.");
+            default -> {
+                System.out.println("Opção inválida.");
+            }
         }
     }
 }
