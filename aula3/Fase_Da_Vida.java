@@ -32,7 +32,7 @@ public class Fase_Da_Vida {
         } else if (idade >= 19 && idade <= 59) {
             System.out.println("Você é um adulto.");
 
-        } else if (idade >= 60 && idade <= 120) {
+        } else if (idade >= 60 && idade <= 125) {
             System.out.println("Você é um idoso.");
 
         } else {
