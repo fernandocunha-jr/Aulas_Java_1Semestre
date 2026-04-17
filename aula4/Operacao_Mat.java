@@ -47,7 +47,9 @@ public class Operacao_Mat {
                 }
             }
 
-            default -> System.out.println("Opção inválida.");
+            default -> {
+                System.out.println("Opção inválida.");
+            } 
         }
     }
 }
