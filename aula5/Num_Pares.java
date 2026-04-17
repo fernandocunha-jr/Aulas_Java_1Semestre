@@ -5,9 +5,11 @@ public class Num_Pares {
 
     public static void main(String[] args) {
 
-        System.out.println("Digite um número de 0 a 50:");
-        int inicio = 0;
-        int fim = 50;
+         int inicio = 0;
+         int fim = 50;
+
+        System.out.println("Exibição dos pares de 0 a 50:");
+       
 
         for(int cont = inicio; cont <= fim; cont++) {
             if (cont % 2 == 0) {
