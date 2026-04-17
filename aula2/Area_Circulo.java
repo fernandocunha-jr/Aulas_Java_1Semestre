@@ -12,6 +12,9 @@ public class Area_Circulo {
         double raio = 0;
         double pi = 3.14;
 
+        // Usa o valor inicial para evitar aviso de "valor atribuído nunca usado"
+        System.out.println("Valor inicial do raio: " + raio);
+
         System.out.println("Calculadora de área do círculo");
 
         System.out.println("Qual é o raio do círculo: ");
