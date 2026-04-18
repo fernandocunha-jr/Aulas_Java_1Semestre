@@ -9,8 +9,8 @@ public class Area_Triangulo {
         
         Scanner sc = new Scanner(System.in);
 
-        double base = 0;
-        double altura = 0;
+        double base;
+        double altura;
         
         System.out.println("Calculadora de área do triângulo");
 
