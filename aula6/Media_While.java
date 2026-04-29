@@ -17,9 +17,10 @@ public class Media_While {
 
         while (num != 0) { // O loop continua enquanto num for diferente de 0.
 
-            System.out.println("Digite um número (ou 0 para encerrar):");
+            System.out.println("Digite um número para calcular a média (ou 0 para encerrar):");
             num = sc.nextDouble(); // Lê o número digitado pelo usuário.
-            soma += num; // Adiciona o número digitado à soma total.
+            
+            soma += num; // Acumula o número digitado à soma total.
             cont++; // Incrementa a contagem de números digitados.
         }
 

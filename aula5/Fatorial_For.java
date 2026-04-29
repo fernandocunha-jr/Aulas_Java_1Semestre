@@ -2,7 +2,7 @@ package aula5;
 
 import java.util.Scanner;
 
-public class Fatorial {
+public class Fatorial_For {
     // Faça um algoritmo que calcule o fatorial de um número informado pelo usuário.
 
     public static void main(String[] args) {

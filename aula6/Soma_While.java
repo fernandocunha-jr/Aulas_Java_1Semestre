@@ -22,7 +22,4 @@ public class Soma_While {
 
         System.out.println("A soma dos números digitados é: " + soma);
     }
-
-
-
 }
