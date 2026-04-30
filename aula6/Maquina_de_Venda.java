@@ -19,7 +19,7 @@ public class Maquina_de_Venda {
         double troco; // Variável para armazenar o valor do troco a ser devolvido ao usuário.
 
         System.out.println("Escolha um produto:");
-        for (int i = 1; i < produto.length + 1; i++) { //lenght = comprimento do array, a quantidade de elementos.
+        for (int i = 0; i < produto.length; i++) { //lenght = comprimento do array, a quantidade de elementos.
                                                 // Loop para exibir os produtos e seus preços.
                                                 // O loop continua enquanto i for menor que o comprimento do array produto.
             System.out.println(i + " - " + produto[i] + " | R$ " + precos[i]);
