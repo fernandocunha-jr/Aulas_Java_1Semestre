@@ -1,8 +1,9 @@
 package aula7;
 
+
 import java.util.Scanner;
 
-public class Calculadora_DO_While {
+public class Calculadora_do_While {
 //Crie um algoritmo que simula uma calculadora simples. O usuário deve fornecer dois números e escolher a opercação desejada (+, -, *, /)
 //O algoritmo deve continuar perguntando se o usuário deseja continuar calculando
     public static void main(String[] args) {
@@ -48,8 +49,10 @@ public class Calculadora_DO_While {
                 operacaoValida = false;
             }
 
-        //Mostra o resultado antes de perguntar se quer continuar
+
+            if (operacaoValida) { //Mostra o resultado apenas se for válido, antes de perguntar se quer continuar
                 System.out.println("Resultado: " + resultado);
+            }
 
             System.out.print("Deseja continuar? (Sim/Nao): ");
             continua = sc.next();
