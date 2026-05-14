@@ -9,7 +9,7 @@ public class Matriz_5x5 {
 //Permita que o usuário informe uma linha e coluna e exiba o valor correspondente
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); {
         int matriz [] [] = new int [5] [5];
 
         //Criação da Matriz 5x5
@@ -58,5 +58,6 @@ public class Matriz_5x5 {
             System.out.println("Linha ou coluna inválida. Informe valores entre 1 e 5");
         }
         sc.close();
+    }
     }
 }
