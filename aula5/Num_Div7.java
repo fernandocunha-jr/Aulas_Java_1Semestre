@@ -20,13 +20,14 @@ achar um número divisivel por 7.*/
         System.out.println("Digite o valor do segundo range.");
         termino = sc.nextInt();
         
-        for(int cont = comeco; cont <= termino; cont++)
+        for(int cont = comeco; cont <= termino; cont++) {
             if(cont % 7 > 0) {
                 System.out.println("O valor " + cont + " não é divisivel por 7.");
             }else {
                 System.out.println("O valor " + cont + " é o primeiro divisivel de 7.");
                 break;
             }
+        }
     }
 }
 

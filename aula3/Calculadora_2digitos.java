@@ -21,7 +21,7 @@ public class Calculadora_2digitos {
         System.out.println("Qual é o segundo número: ");
         num2 = sc.nextDouble();
 
-        System.err.println("Digite a operação que deseja realizar: (+, -, *, /)");
+        System.out.println("Digite a operação que deseja realizar: (+, -, *, /)");
         char operacao = sc.next().charAt(0);
 
         double resultado = 0;
@@ -50,7 +50,7 @@ public class Calculadora_2digitos {
         }
 
         if (operacaoValida) {
-            System.err.println("O resultado da operação é: " + resultado);
+            System.out.println("O resultado da operação é: " + resultado);
         }
 
     }

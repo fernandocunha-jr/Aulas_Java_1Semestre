@@ -10,7 +10,7 @@ public class Altura_Media {
 
         Scanner sc = new Scanner(System.in);
 
-        double media = 0;
+        double media;
         double soma = 0;
         double [] vetor = new double [5];
 

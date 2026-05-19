@@ -3,7 +3,7 @@ package aula8;
 import java.util.Scanner;
 
 public class Posicao_Vetor {
-//Crie um algoritmo qque leia 5 números inteiros e armazene esses números em um vetor
+//Crie um algoritmo que leia 5 números inteiros e armazene esses números em um vetor
 //Depois o programa deve verificar se o número fornecido pelo usuário está no vetor e se estiver exiba em qual posição ele está
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Posicao_Vetor {
 
         int busca;
         boolean encontrado;
-        int[] vetor = new int[5];
+        int vetor [] = new int[5];
 
         for (int i = 0; i < 5; i++) {
             System.out.println("Digite o valor número " + (i + 1));

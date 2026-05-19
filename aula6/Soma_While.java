@@ -14,10 +14,11 @@ public class Soma_While {
         int soma = 0;
 
         while (num >= 0) {
-            soma += num; // soma = soma + num;
-
             System.out.println("Digite um número inteiro positivo (ou um número negativo para encerrar):");
             num = sc.nextInt();
+            if (num >= 0) {
+                soma += num; // soma = soma + num;
+            }
         }
 
         System.out.println("A soma dos números digitados é: " + soma);
