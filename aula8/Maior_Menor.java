@@ -34,7 +34,5 @@ public class Maior_Menor {
 
             System.out.println("O maior valor é: " + maior);
             System.out.println("O menor valor é: " + menor);
-
-        sc.close();
     }
 }

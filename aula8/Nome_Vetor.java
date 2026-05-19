@@ -23,7 +23,5 @@ public class Nome_Vetor {
             for(int i = 9; i >= 0; i --) {
                 System.out.println("O nome é: " + vetor [i]);
             }
-
-        sc.close();
     }
 }

@@ -25,7 +25,5 @@ public class Altura_Media {
 
         media = soma / 5;
         System.out.println("A média de altura é: " + media + " metros");
-
-        sc.close();
     }
 }

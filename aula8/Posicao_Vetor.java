@@ -34,7 +34,5 @@ public class Posicao_Vetor {
         if (!encontrado) { //Não exibe o não encontrado (encontrado = false)
             System.out.println("Número " + busca + " não encontrado no vetor.");
         }
-
-        sc.close();
     }
 }

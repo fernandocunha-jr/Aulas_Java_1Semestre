@@ -28,25 +28,22 @@ public class Calculadora_do_While {
             double resultado = 0;
             boolean operacaoValida = true;
 
-            if (operacao == '+') {
-                resultado = num1 + num2;
-
-            } else if (operacao == '-') {
-                resultado = num1 - num2;
-
-            } else if (operacao == '*') {
-                resultado = num1 * num2;
-
-            } else if (operacao == '/') {
-                if (num2 != 0) {
-                    resultado = num1 / num2;
-                } else {
-                    System.out.println("Erro: Divisão por zero não é permitida.");
+            switch (operacao) {
+                case '+' -> resultado = num1 + num2;
+                case '-' -> resultado = num1 - num2;
+                case '*' -> resultado = num1 * num2;
+                case '/' -> {
+                    if (num2 != 0) {
+                        resultado = num1 / num2;
+                    } else {
+                        System.out.println("Erro: Divisão por zero não é permitida.");
+                        operacaoValida = false;
+                    }
+                }
+                default -> {
+                    System.out.println("Operação inválida. Escolha entre +, -, *, /.");
                     operacaoValida = false;
                 }
-            } else {
-                System.out.println("Operação inválida. Escolha entre +, -, *, /.");
-                operacaoValida = false;
             }
 
 
@@ -60,6 +57,5 @@ public class Calculadora_do_While {
         } while (continua.equalsIgnoreCase("Sim")); //.equals, compara String e IgnoreCase para aceitar qualquer escrita de Sim e Não
 
         System.out.println("Encerrando a calculadora. Até logo!");
-        sc.close();
     }
 }

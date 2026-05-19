@@ -10,7 +10,7 @@ public class Media_5vetor {
 
         Scanner sc = new Scanner(System.in);
 
-        double media = 0;
+        double media;
         double soma = 0;
         int [] vetor = new int [5];
 
@@ -25,7 +25,5 @@ public class Media_5vetor {
 
         media = soma / 5;
         System.out.println("A média do vetor é: " + media);
-
-        sc.close();
     }
 }
