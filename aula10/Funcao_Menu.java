@@ -6,50 +6,46 @@ public class Funcao_Menu {
 /*Escreva um programa que tenha uma função menu() para exibir
 opções e outras funções para executar as ações de cada opção.*/
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int opcao;
-
-        do {
-            menu();
-            opcao = sc.nextInt();
-
-            switch (opcao) {
-                case 1:
-                    System.out.print("Digite um número: ");
-                    int numero = sc.nextInt();
-                    System.out.println("O dobro de " + numero + " é: " + dobro(numero));
-                    break;
-
-                case 2:
-                    sc.nextLine();
-                    System.out.print("Digite o nome: ");
-                    String nome = sc.nextLine();
-                    System.out.print("Digite a idade: ");
-                    int idade = sc.nextInt();
-                    exibirMensagem(nome, idade);
-                    break;
-
-                case 3:
-                    System.out.print("Digite um número: ");
-                    int num = sc.nextInt();
-                    if (par(num)) {
-                        System.out.println(num + " é par.");
-                    } else {
-                        System.out.println(num + " é ímpar.");
+        try (Scanner sc = new Scanner(System.in)) {
+            int opcao;
+            
+            do {
+                menu();
+                opcao = sc.nextInt();
+                
+                switch (opcao) {
+                    case 1 -> {
+                        System.out.print("Digite um número: ");
+                        int numero = sc.nextInt();
+                        System.out.println("O dobro de " + numero + " é: " + dobro(numero));
                     }
-                    break;
-
-                case 0:
-                    System.out.println("Encerrando o programa...");
-                    break;
-
-                default:
-                    System.out.println("Opção inválida! Tente novamente.");
-            }
-
-        } while (opcao != 0);
-
-        sc.close();
+                        
+                    case 2 -> {
+                        sc.nextLine();
+                        System.out.print("Digite o nome: ");
+                        String nome = sc.nextLine();
+                        System.out.print("Digite a idade: ");
+                        int idade = sc.nextInt();
+                        exibirMensagem(nome, idade);
+                    }
+                        
+                    case 3 -> {
+                        System.out.print("Digite um número: ");
+                        int num = sc.nextInt();
+                        if (par(num)) {
+                            System.out.println(num + " é par.");
+                        } else {
+                            System.out.println(num + " é ímpar.");
+                        }
+                    }
+                        
+                    case 0 -> System.out.println("Encerrando o programa...");
+                        
+                    default -> System.out.println("Opção inválida! Tente novamente.");
+                }
+                
+            } while (opcao != 0);
+        }
     }
 
     public static void menu() {
